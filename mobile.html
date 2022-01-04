@@ -23,8 +23,16 @@
     document.location = "index.html";
     }
     function copyToClipboard(element) {
-    navigator.clipboard.writeText(element);
-    alert("Copied the text: " + element);
+    navigator.clipboard.writeText('arsalan.shakil@metropolia.fi')
+      .then(() => {
+        document.getElementById(element).innerHTML = 'copied!';
+        setTimeout(function() {
+          document.getElementById(element).innerHTML = 'Get in touch';
+      }, 5000);
+      })
+      .catch(() => {
+        alert("something went wrong");
+      });
   }
   </script>
   <style>
@@ -321,7 +329,8 @@
       <div class="bnr" id="js-bnr">
         <div class="row social">
           <span data-emergence="hidden">
-              <a onclick="copyToClipboard('text copied')">Github</a>
+              <a id="change-text2" onclick="copyToClipboard('change-text2')" href="#">Get in touch</a>
+              <a href="https://github.com/ArsalanShakil">Github</a>
               <a href="https://www.linkedin.com/in/arsalan-shakil" target="_blank">Linkedin</a>
           </span>
         </div>
@@ -457,6 +466,8 @@
           </p>
           <div class="row social" style="text-align: left">
             <span data-emergence="hidden">
+              <a id="change-text" onclick="copyToClipboard('change-text')" class="ce">Get in touch</a>
+              <br><br>
               <a href="https://github.com/ArsalanShakil" target="_blank">Github</a>
               <a href="https://www.linkedin.com/in/arsalan-shakil" target="_blank">Linkedin</a>
             </span>
