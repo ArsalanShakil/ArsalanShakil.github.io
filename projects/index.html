@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Arsalan Shakil — Projects</title>
   <meta charset="utf-8">
@@ -11,52 +12,51 @@
   <meta name="theme-color" content="#3ddc84">
   <script type="text/javascript">
     if (screen.width <= 699) {
-    document.location = "../mobile.html";
+      document.location = "../mobile.html";
     }
   </script>
   <script language=javascript>
     if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-    location.replace("../mobile.html");
+      location.replace("../mobile.html");
     }
     function copyToClipboard(element) {
-    navigator.clipboard.writeText('arsalan.shakil@metropolia.fi')
-      .then(() => {
-        document.getElementById(element).innerHTML = 'email copied!';
-        setTimeout(function() {
-          document.getElementById(element).innerHTML = 'Get in touch';
-      }, 5000);
-      })
-      .catch(() => {
-        alert("something went wrong");
-      });
+      navigator.clipboard.writeText('arsalan.shakil@metropolia.fi')
+        .then(() => {
+          document.getElementById(element).innerHTML = 'email copied!';
+          setTimeout(function () {
+            document.getElementById(element).innerHTML = 'Get in touch';
+          }, 5000);
+        })
+        .catch(() => {
+          alert("something went wrong");
+        });
     }
   </script>
   <style>
-
-  [data-scroll-content]{
-    padding-top: 14vw;
-    padding-bottom: 17.5vw;
-  }
-
+    [data-scroll-content] {
+      padding-top: 14vw;
+      padding-bottom: 17.5vw;
+    }
   </style>
 </head>
+
 <body>
   <nav class="flex col-12">
-   <div>
-     <span class="flex">
-       <hr data-emergence="hidden" style="width: 4vw;">
-       ARSALAN SHAKIL
-     </span>
-   </div>
-   <div>
-     <span class="flex">
-       <a href="../">HOME</a>
-     </span>
-   </div>
-   <div id="mbtn" class="mbtn-visible" onclick="shonav();">
-     <hr>
-     <hr style="transition-delay: .2s;">
-   </div>
+    <div>
+      <span class="flex">
+        <hr data-emergence="hidden" style="width: 4vw;">
+        ARSALAN SHAKIL
+      </span>
+    </div>
+    <div>
+      <span class="flex">
+        <a href="../">HOME</a>
+      </span>
+    </div>
+    <div id="mbtn" class="mbtn-visible" onclick="shonav();">
+      <hr>
+      <hr style="transition-delay: .2s;">
+    </div>
   </nav>
   <div id="nl" class="nav_left">
     <h5 class="flex">
@@ -81,15 +81,15 @@
             <a href="../">HOME</a>
           </span>
         </span>
-    </h1><br>
-    <h1>
-      <hr class="js-hide" data-emergence="hidden" style="width: 25vw;margin-left:0">
+      </h1><br>
+      <h1>
+        <hr class="js-hide" data-emergence="hidden" style="width: 25vw;margin-left:0">
         <span class="row">
           <span class="js-hide" data-emergence="hidden">
             <del>PROJECTS</del>
           </span>
         </span>
-    </h1>
+      </h1>
     </div><br><br>
     <div class="mnub jus flex col-10">
       <div class="me flex">
@@ -167,7 +167,7 @@
               </span>
             </div>
             <div class="w">
-              <a href="crud-api.html" >
+              <a href="crud-api.html">
                 <div class="imgrev" data-emergence="hidden">
                   <img src="../photos/crud-api.png">
                 </div>
@@ -181,14 +181,14 @@
               </p>
               <span class="row">
                 <span data-emergence="hidden">
-                  Api - made with Pyhton, SQLAlchemy, Alembic 
+                  Api - made with Pyhton, SQLAlchemy, Alembic
                 </span>
               </span>
             </div>
           </div>
           <div class="sbot scol col-6">
             <div class="w w-margin">
-              <a href="nokiagarage.html" >
+              <a href="nokiagarage.html">
                 <div class="imgrev" data-emergence="hidden">
                   <img src="../photos/nokiagarage.png">
                 </div>
@@ -261,7 +261,7 @@
               </span>
               <span class="row">
                 <span data-emergence="hidden">
-                  made with Kotlin 
+                  made with Kotlin
                 </span>
             </div>
             <a href="https://github.com/ArsalanShakil/Lingoo-language-learning-app" target="_blank">
@@ -289,12 +289,12 @@
             <div>
               <span class="row">
                 <span data-emergence="hidden">
-                  An app 
+                  An app
                 </span>
               </span>
               <span class="row">
                 <span data-emergence="hidden">
-                  made with Swift 
+                  made with Swift
                 </span>
             </div>
             <a href="https://github.com/ArsalanShakil/GetFit" target="_blank">
@@ -327,7 +327,7 @@
               </span>
               <span class="row">
                 <span data-emergence="hidden">
-                   with ReactNative 
+                  with ReactNative
                 </span>
             </div>
             <a href="https://github.com/ArsalanShakil/Helply" target="_blank">
@@ -365,10 +365,10 @@
               </span>
               <span class="row">
                 <span data-emergence="hidden">
-                  made with Html, 
+                  made with Html,
                 </span>
               </span>
-                <span class="row">
+              <span class="row">
                 <span data-emergence="hidden">
                   CSS and Javascript
                 </span>
@@ -404,7 +404,7 @@
             <div>
               <span class="row">
                 <span data-emergence="hidden">
-                  An app 
+                  An app
                 </span>
               </span>
               <span class="row">
@@ -448,7 +448,7 @@
               </span>
               <span class="row">
                 <span data-emergence="hidden">
-                   made with C
+                  made with C
                 </span>
               </span>
             </div>
@@ -510,25 +510,25 @@
   <script src="../js/emergence.js"></script>
   <script src="../js/menu.js"></script>
   <script>
-  emergence.init({
-    container: window,
-    reset: false,
-    handheld: true,
-    throttle: 250,
-    elemCushion: 0.05,
-    offsetTop: 0,
-    offsetRight: 0,
-    offsetBottom: 80,
-    offsetLeft: 0,
-    callback: function(element, state) {
-      if (state === 'visible') {
-        console.log('Element is visible.');
-      } else if (state === 'reset') {
-        console.log('Element is hidden with reset.');
-      } else if (state === 'noreset') {
-        console.log('Element is hidden with NO reset.');
+    emergence.init({
+      container: window,
+      reset: false,
+      handheld: true,
+      throttle: 250,
+      elemCushion: 0.05,
+      offsetTop: 0,
+      offsetRight: 0,
+      offsetBottom: 80,
+      offsetLeft: 0,
+      callback: function (element, state) {
+        if (state === 'visible') {
+          console.log('Element is visible.');
+        } else if (state === 'reset') {
+          console.log('Element is hidden with reset.');
+        } else if (state === 'noreset') {
+          console.log('Element is hidden with NO reset.');
+        }
       }
-    }
     });
   </script>
   <script>
@@ -536,12 +536,13 @@
       $('[data-paroller-factor]').paroller();
       //TO BOTTOM
       $(".sbot").paroller({
-       factor: .18,
-       type: 'foreground',
-       direction: 'vertical',
-       transition: 'transform .3s ease-out'
+        factor: .18,
+        type: 'foreground',
+        direction: 'vertical',
+        transition: 'transform .3s ease-out'
       });
     });
   </script>
 </body>
+
 </html>

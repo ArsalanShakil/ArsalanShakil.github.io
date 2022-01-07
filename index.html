@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145352703-1"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-145352703-1');
+    gtag('config', 'UA-145352703-1');
   </script>
   <title>Arsalan Shakil — Mobile/Web Developer</title>
   <meta charset="utf-8">
@@ -26,187 +27,187 @@
   <meta property="og:image:height" content="630">
   <script type="text/javascript">
     if (screen.width <= 699) {
-    document.location = "mobile.html";
+      document.location = "mobile.html";
     }
   </script>
   <script language=javascript>
     if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-    location.replace("mobile.html");
+      location.replace("mobile.html");
     }
 
-  function copyToClipboard(element) {
-    navigator.clipboard.writeText('arsalan.shakil@metropolia.fi')
-      .then(() => {
-        document.getElementById(element).innerHTML = 'email copied!';
-        setTimeout(function() {
-          document.getElementById(element).innerHTML = 'Get in touch';
-      }, 5000);
-      })
-      .catch(() => {
-        alert("something went wrong");
-      });
-  }
+    function copyToClipboard(element) {
+      navigator.clipboard.writeText('arsalan.shakil@metropolia.fi')
+        .then(() => {
+          document.getElementById(element).innerHTML = 'email copied!';
+          setTimeout(function () {
+            document.getElementById(element).innerHTML = 'Get in touch';
+          }, 5000);
+        })
+        .catch(() => {
+          alert("something went wrong");
+        });
+    }
   </script>
   <style>
+    [data-scroll-content] {
+      padding-top: 9vw;
+      padding-bottom: 5.5vw;
+    }
 
-  [data-scroll-content]{
-    padding-top: 9vw;
-    padding-bottom: 5.5vw;
-  }
+    .bnr {
+      position: relative;
+      background: #d7effe;
+      width: 100;
+    }
 
-  .bnr{
-    position: relative;
-    background: #d7effe;
-    width: 100;
-  }
+    .tb {
+      width: 180vw;
+      font-size: 7.613vw;
+      text-transform: uppercase;
+    }
 
-  .tb{
-    width: 180vw;
-    font-size: 7.613vw;
-    text-transform: uppercase;
-  }
+    .sright {
+      margin-left: -2vw;
+      position: relative;
+      z-index: 5;
+    }
 
-  .sright{
-    margin-left: -2vw;
-    position: relative;
-    z-index: 5;
-  }
+    .bl {
+      transform: translate(0, -5.8vh);
+    }
 
-  .bl{
-    transform: translate(0, -5.8vh);
-  }
+    .bi {
+      width: 49vw;
+      height: auto;
+    }
 
-  .bi{
-    width: 49vw;
-    height: auto;
-  }
+    .ba {
+      position: absolute;
+      bottom: 28vh;
+      right: 14vh;
+      width: 70px;
+    }
 
-  .ba{
-    position: absolute;
-    bottom: 28vh;
-    right: 14vh;
-    width: 70px;
-  }
+    .ba img {
+      width: 100%;
+    }
 
-  .ba img{
-    width: 100%;
-  }
+    .bt {
+      padding-left: 10vw;
+      transform: translate(0, 70%);
+    }
 
-  .bt{
-    padding-left: 10vw;
-    transform: translate(0, 70%);
-  }
+    .sw {
+      margin-top: 20vw;
+    }
 
-  .sw{
-    margin-top: 20vw;
-  }
+    .sw,
+    .con {
+      margin: 18vw auto 20vh auto;
+    }
 
-  .sw, .con{
-    margin: 18vw auto 20vh auto;
-  }
+    .swdes span>span {
+      text-align: right;
+      transition-delay: .9s;
+      font-size: 15px;
+    }
 
-  .swdes span > span{
-    text-align: right;
-    transition-delay: .9s;
-    font-size: 15px;
-  }
+    .scol {
+      padding: 20vh 8vw 5vh 8vw;
+    }
 
-  .scol{
-    padding: 20vh 8vw 5vh 8vw;
-  }
+    .sbot {
+      margin-top: -20vh;
+    }
 
-  .sbot{
-    margin-top: -20vh;
-  }
+    .w-margin {
+      margin: 0 0 28vh 0;
+    }
 
-  .w-margin{
-    margin: 0 0 28vh 0;
-  }
+    .w p {
+      font-size: 1.02em;
+      font-family: product;
+      padding: 15px 0 2px 0;
+    }
 
-  .w p{
-    font-size: 1.02em;
-    font-family: product;
-    padding: 15px 0 2px 0;
-  }
+    .w>span {
+      font-size: 12px;
+      font-family: quest;
+      opacity: .5;
+      color: #000000;
+    }
 
-  .w > span{
-    font-size: 12px;
-    font-family: quest;
-    opacity: .5;
-    color: #000000;
-  }
+    .w>a>div img {
+      filter: grayscale(1);
+      transition: .4s;
+    }
 
-  .w > a > div img{
-    filter: grayscale(1);
-    transition: .4s;
-  }
+    .w>a>div img:hover {
+      filter: grayscale(0);
+    }
 
-  .w > a > div img:hover{
-    filter: grayscale(0);
-  }
+    .con {
+      position: relative;
+      margin-bottom: 0;
+    }
 
-  .con{
-    position: relative;
-    margin-bottom: 0;
-  }
+    .con * {
+      transition-delay: .6s;
+      transition-property: transform;
+    }
 
-  .con *{
-    transition-delay: .6s;
-    transition-property: transform;
-  }
+    .cs {
+      width: 52.33%;
+      margin-left: 25.3%;
+      align-items: center;
+    }
 
-  .cs{
-     width: 52.33%;
-     margin-left: 25.3%;
-     align-items: center;
-  }
+    .social a {
+      font-family: product, sans-serif;
+      font-size: 1.066em;
+      line-height: 1.154em;
+      display: block;
+      padding: 1px 0;
+      transition: .2s;
+    }
 
-  .social a{
-    font-family: product, sans-serif;
-    font-size: 1.066em;
-    line-height: 1.154em;
-    display: block;
-    padding: 1px 0;
-    transition: .2s;
-  }
+    .ctext {
+      transform: translate(0, 1.8vh);
+    }
 
-  .ctext{
-    transform: translate(0, 1.8vh);
-  }
+    .ctext p {
+      white-space: nowrap;
+    }
 
-  .ctext p{
-    white-space: nowrap;
-  }
+    .ctext>a {
+      font-family: product;
+      text-decoration: underline;
+      transform: translate(0, 10vh);
+      display: block;
+      font-size: 25px;
+    }
 
-  .ctext > a{
-    font-family: product;
-    text-decoration: underline;
-    transform: translate(0, 10vh);
-    display: block;
-    font-size: 25px;
-  }
+    .social p {
+      font-size: 16px;
+      opacity: .5;
+    }
 
-  .social p{
-    font-size: 16px;
-    opacity: .5;
-  }
+    .c-small {
+      font-size: 12px;
+      font-family: product;
+      transform: translate(0, 25vh);
+      color: #000000;
+      opacity: .5;
+    }
 
-  .c-small{
-    font-size: 12px;
-    font-family: product;
-    transform: translate(0, 25vh);
-    color: #000000;
-    opacity: .5;
-  }
-
-  .cs .imgrev{
-    width: 30vw;
-    margin-left: -25vw;
-    margin-top: -4.5vh;
-  }
-
+    .cs .imgrev {
+      width: 30vw;
+      margin-left: -25vw;
+      margin-top: -4.5vh;
+    }
   </style>
 </head>
+
 <body>
   <div class="scr">
     <h1>
@@ -217,25 +218,25 @@
   </div>
   </div>
   <nav class="flex col-12">
-   <div>
-     <span class="flex">
-       <hr data-emergence="hidden" style="width: 4vw;">
-       ARSALAN SHAKIL
-     </span>
-   </div>
-   <div>
-     <span class="flex">
-       <a href="projects/">PROJECTS</a>
-     </span>
-   </div>
-   <div id="mbtn" class="mbtn-visible" onclick="shonav();">
-     <hr>
-     <hr style="transition-delay: .3s;">
-   </div>
+    <div>
+      <span class="flex">
+        <hr data-emergence="hidden" style="width: 4vw;">
+        ARSALAN SHAKIL
+      </span>
+    </div>
+    <div>
+      <span class="flex">
+        <a href="projects/">PROJECTS</a>
+      </span>
+    </div>
+    <div id="mbtn" class="mbtn-visible" onclick="shonav();">
+      <hr>
+      <hr style="transition-delay: .3s;">
+    </div>
   </nav>
   <div id="nl" class="nav_left">
     <h5 class="flex">
-       ARSALAN SHAKIL
+      ARSALAN SHAKIL
     </h5>
   </div>
   <div id="mbtn_side" onclick="shonav();">
@@ -249,19 +250,19 @@
     </div>
     <div class="col-10">
       <h1 class="jus">
-          <span class="row">
-            <span class="js-hide" data-emergence="hidden">
-              <del>HOME</del>
-            </span>
+        <span class="row">
+          <span class="js-hide" data-emergence="hidden">
+            <del>HOME</del>
           </span>
+        </span>
       </h1><br>
       <h1>
         <hr class="js-hide" data-emergence="hidden" style="width: 25vw;margin-left:0">
-          <span class="row">
-            <span class="js-hide" data-emergence="hidden">
-              <a href="projects/">PROJECTS</a>
-            </span>
+        <span class="row">
+          <span class="js-hide" data-emergence="hidden">
+            <a href="projects/">PROJECTS</a>
           </span>
+        </span>
       </h1>
     </div><br><br>
     <div class="mnub jus flex col-10">
@@ -269,7 +270,7 @@
         <div class="flex">
           <span class="row">
             <span class="js-hide" data-emergence="hidden">
-              <a  id="change-text2" onclick="copyToClipboard('change-text2')" href="#" class="flex" >Get in touch</a>
+              <a id="change-text2" onclick="copyToClipboard('change-text2')" href="#" class="flex">Get in touch</a>
             </span>
           </span>
         </div>
@@ -294,46 +295,46 @@
       <!--BANNER-->
       <div class="bnr col-12">
         <div style="overflow-x:hidden;width: 100%">
-        <h1 class="tb sleft">
-          <span class="row">
-            <span data-emergence="hidden">Frontend</span>
-          </span>
-          <hr data-emergence="hidden" style="width: 18vw;">
-          <span class="row">
-            <span data-emergence="hidden">Backend</span>
-          </span>
-        </h1>
-        <h1 class="tb sright">
-          <span class="row">
-            <span data-emergence="hidden">Web</span>
-          </span>
-          <hr data-emergence="hidden" style="width: 24vw;">
-          <span class="row">
-            <span data-emergence="hidden">Mobile</span>
-          </span>
-        </h1>
-        <h1 class="tb sleft">
-          <span class="row">
-            <span data-emergence="hidden">Android</span>
-          </span>
-          <hr data-emergence="hidden" style="width: 10vw;">
-          <span class="row">
-            <span data-emergence="hidden">iOS</span>
-          </span>
-          <hr data-emergence="hidden" style="width: 10vw;">
-          <span class="row">
-            <span data-emergence="hidden">Hybrid</span>
-          </span>
-        </h1>
-        <h1 class="tb sright">
-          <span class="row">
-            <span data-emergence="hidden">User</span>
-          </span>
-          <hr data-emergence="hidden" style="width: 24vw;">
-          <span class="row">
-            <span data-emergence="hidden">INterfaces</span>
-          </span>
-        </h1>
+          <h1 class="tb sleft">
+            <span class="row">
+              <span data-emergence="hidden">Frontend</span>
+            </span>
+            <hr data-emergence="hidden" style="width: 18vw;">
+            <span class="row">
+              <span data-emergence="hidden">Backend</span>
+            </span>
+          </h1>
+          <h1 class="tb sright">
+            <span class="row">
+              <span data-emergence="hidden">Web</span>
+            </span>
+            <hr data-emergence="hidden" style="width: 24vw;">
+            <span class="row">
+              <span data-emergence="hidden">Mobile</span>
+            </span>
+          </h1>
+          <h1 class="tb sleft">
+            <span class="row">
+              <span data-emergence="hidden">Android</span>
+            </span>
+            <hr data-emergence="hidden" style="width: 10vw;">
+            <span class="row">
+              <span data-emergence="hidden">iOS</span>
+            </span>
+            <hr data-emergence="hidden" style="width: 10vw;">
+            <span class="row">
+              <span data-emergence="hidden">Hybrid</span>
+            </span>
+          </h1>
+          <h1 class="tb sright">
+            <span class="row">
+              <span data-emergence="hidden">User</span>
+            </span>
+            <hr data-emergence="hidden" style="width: 24vw;">
+            <span class="row">
+              <span data-emergence="hidden">INterfaces</span>
+            </span>
+          </h1>
         </div>
         <div class="bl ali flex">
           <div class="bi imgrev" data-emergence="hidden">
@@ -413,7 +414,7 @@
               </span>
             </div>
             <div class="w">
-              <a href="./projects/crud-api.html" >
+              <a href="./projects/crud-api.html">
                 <div class="imgrev" data-emergence="hidden">
                   <img src="photos/crud-api.png">
                 </div>
@@ -427,14 +428,14 @@
               </p>
               <span class="row">
                 <span data-emergence="hidden">
-                  Api - made with Pyhton, SQLAlchemy, Alembic 
+                  Api - made with Pyhton, SQLAlchemy, Alembic
                 </span>
               </span>
             </div>
           </div>
           <div class="sbot scol col-6">
             <div class="w w-margin">
-              <a href="./projects/nokiagarage.html" >
+              <a href="./projects/nokiagarage.html">
                 <div class="imgrev" data-emergence="hidden">
                   <img src="photos/nokiagarage.png">
                 </div>
@@ -471,13 +472,13 @@
                 </span>
               </span>
             </div>
-            
+
           </div>
         </div>
       </div>
-      
 
-      <div  class="abt col-10">
+
+      <div class="abt col-10">
         <h1 class="jus">
           <span class="row">
             <span data-emergence="hidden">ABOUT</span>
@@ -490,24 +491,25 @@
         <div class="jus flex ali intro">
           <div>
             <p>
-            <span class="row">
-              <span data-emergence="hidden">
-                 Currently
+              <span class="row">
+                <span data-emergence="hidden">
+                  Currently
+                </span>
               </span>
-            </span>
-            <span class="row">
-              <span data-emergence="hidden">
-                 working as a
+              <span class="row">
+                <span data-emergence="hidden">
+                  working as a
+                </span>
               </span>
-            </span>
-            <span class="row" style="font-size: 25px; font-family: pbold;">
-              <span data-emergence="hidden">
-                 Flutter Traineer at the 
-                 <a style="font-size: 25px; font-family: pbold; text-decoration: underline;" href="https://www.metropolia.fi/en/rdi/rdi-projects/simhe">SIMHE project</a>
+              <span class="row" style="font-size: 25px; font-family: pbold;">
+                <span data-emergence="hidden">
+                  Flutter Traineer at the
+                  <a style="font-size: 25px; font-family: pbold; text-decoration: underline;"
+                    href="https://www.metropolia.fi/en/rdi/rdi-projects/simhe">SIMHE project</a>
+                </span>
               </span>
-            </span>
-            <br>
-                <!--             <span class="row">
+              <br>
+              <!--             <span class="row">
               <span data-emergence="hidden">
                  and also working as a
               </span>
@@ -518,7 +520,7 @@
                  <a style="font-size: 25px; font-family: pbold; text-decoration: underline;" href="https://futurice.com/">Futurice</a>
               </span>
             </span> -->
-          </p>
+            </p>
           </div>
           <div>
             <p>
@@ -532,18 +534,19 @@
                 <span data-emergence="hidden">with a major in Mobile Devlopment.</span>
               </span>
               <br>
-                <a style="font-size: large; text-decoration: underline;" href="https://youtu.be/c_UASn7LC3M" target="_blank">
-                  <span class="row">Checkout my interview while working</span>
-                  <span class="row">as a Trainee at Metropolia UAS</span>
-                </a>
+              <a style="font-size: large; text-decoration: underline;" href="https://youtu.be/c_UASn7LC3M"
+                target="_blank">
+                <span class="row">Checkout my interview while working</span>
+                <span class="row">as a Trainee at Metropolia UAS</span>
+              </a>
             </p>
-            
+
           </div>
         </div>
         <div class="imgrev" data-emergence="hidden">
           <img style="width: 60%;" src="photos/text.svg">
         </div>
-        
+
       </div>
 
 
@@ -563,55 +566,55 @@
                 <span data-emergence="hidden">ACT</span>
               </span>
             </h1>
-         </div>
-         <div class="ctext col-2">
-           <p>
-             <span class="row">
-               <span data-emergence="hidden">Have a project in mind or</span>
-             </span>
-             <span class="row">
-               <span data-emergence="hidden">do you want to work</span>
-             </span>
-             <span class="row">
-               <span data-emergence="hidden">with me?</span>
-             </span>
-             <br>
-             <span class="row">
-               <span data-emergence="hidden">Feel free to reach out</span>
-             </span>
-             <span class="row">
-               <span data-emergence="hidden">by writing an e-mail.</span>
-             </span>
-           </p>
-           <a id="change-text" onclick="copyToClipboard('change-text')" class="ce">Get in touch</a>
-           <span class="c-small row">
-             <span data-emergence="hidden">Made with 💙 by<br> Arsalan Shakil.</span>
-           </span>
+          </div>
+          <div class="ctext col-2">
+            <p>
+              <span class="row">
+                <span data-emergence="hidden">Have a project in mind or</span>
+              </span>
+              <span class="row">
+                <span data-emergence="hidden">do you want to work</span>
+              </span>
+              <span class="row">
+                <span data-emergence="hidden">with me?</span>
+              </span>
+              <br>
+              <span class="row">
+                <span data-emergence="hidden">Feel free to reach out</span>
+              </span>
+              <span class="row">
+                <span data-emergence="hidden">by writing an e-mail.</span>
+              </span>
+            </p>
+            <a id="change-text" onclick="copyToClipboard('change-text')" class="ce">Get in touch</a>
+            <span class="c-small row">
+              <span data-emergence="hidden">Made with 💙 by<br> Arsalan Shakil.</span>
+            </span>
           </div>
         </div>
-       <div class="flex jus cs">
-       <div class="social">
-         <p>
-           <span class="row">
-             <span data-emergence="hidden">SOCIAL</span>
-           </span>
-         </p>
-         <a href="https://github.com/ArsalanShakil" target="_blank">
-           <span class="row">
-             <span data-emergence="hidden">Github</spanhub>
-           </span>
-         </a>
-         <a href="https://www.linkedin.com/in/arsalan-shakil" target="_blank">
-           <span class="row">
-             <span data-emergence="hidden">Linkedin</span>
-           </span>
-         </a>
-       </div>
-        <div class="imgrev" data-emergence="hidden">
-          <img src="photos/cont2.gif">
+        <div class="flex jus cs">
+          <div class="social">
+            <p>
+              <span class="row">
+                <span data-emergence="hidden">SOCIAL</span>
+              </span>
+            </p>
+            <a href="https://github.com/ArsalanShakil" target="_blank">
+              <span class="row">
+                <span data-emergence="hidden">Github</spanhub>
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/arsalan-shakil" target="_blank">
+              <span class="row">
+                <span data-emergence="hidden">Linkedin</span>
+              </span>
+            </a>
+          </div>
+          <div class="imgrev" data-emergence="hidden">
+            <img src="photos/cont2.gif">
+          </div>
         </div>
       </div>
-     </div>
       <!--SCROLL-END-->
     </div>
   </div>
@@ -623,25 +626,25 @@
   <script src="js/emergence.js"></script>
   <script src="js/menu.js"></script>
   <script>
-  emergence.init({
-    container: window,
-    reset: false,
-    handheld: true,
-    throttle: 250,
-    elemCushion: 0.2,
-    offsetTop: 0,
-    offsetRight: 0,
-    offsetBottom: 60,
-    offsetLeft: 0,
-    callback: function(element, state) {
-      if (state === 'visible') {
-        console.log('Element is visible.');
-      } else if (state === 'reset') {
-        console.log('Element is hidden with reset.');
-      } else if (state === 'noreset') {
-        console.log('Element is hidden with NO reset.');
+    emergence.init({
+      container: window,
+      reset: false,
+      handheld: true,
+      throttle: 250,
+      elemCushion: 0.2,
+      offsetTop: 0,
+      offsetRight: 0,
+      offsetBottom: 60,
+      offsetLeft: 0,
+      callback: function (element, state) {
+        if (state === 'visible') {
+          console.log('Element is visible.');
+        } else if (state === 'reset') {
+          console.log('Element is hidden with reset.');
+        } else if (state === 'noreset') {
+          console.log('Element is hidden with NO reset.');
+        }
       }
-    }
     });
   </script>
   <script>
@@ -649,26 +652,26 @@
       $('[data-paroller-factor]').paroller();
       //FIRST HEADING
       $(".sleft").paroller({
-       factor: 0.2,
-       factorXs: 0.1,
-       type: 'foreground',
-       direction: 'horizontal',
-       transition: 'transform .4s linear'
+        factor: 0.2,
+        factorXs: 0.1,
+        type: 'foreground',
+        direction: 'horizontal',
+        transition: 'transform .4s linear'
       });
       //SECOND HEADING
       $(".sright").paroller({
-       factor: -0.2,
-       factorXs: 0.0,
-       type: 'foreground',
-       direction: 'horizontal',
-       transition: 'transform .4s linear'
+        factor: -0.2,
+        factorXs: 0.0,
+        type: 'foreground',
+        direction: 'horizontal',
+        transition: 'transform .4s linear'
       });
       //TO BOTTOM
       $(".sbot").paroller({
-       factor: .18,
-       type: 'foreground',
-       direction: 'vertical',
-       transition: 'transform .3s linear'
+        factor: .18,
+        type: 'foreground',
+        direction: 'vertical',
+        transition: 'transform .3s linear'
       });
     });
   </script>
@@ -677,4 +680,5 @@
     update your browser or enable Javascript from settings. And please don't use Internet explorer.
   </noscript>
 </body>
+
 </html>
